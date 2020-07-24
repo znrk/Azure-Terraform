@@ -43,7 +43,7 @@
   * Spoke VNET上でWebアプリケーションにアクセスできるはずです。
   * アクセスはAzure Front DoorからAzure Firewallに流れていますが、Azure FirewallではNATルールがあり、プライベートIP経由でWebサイトを公開している内部のロードバランサーに通信を送信しています。
 
-## すべてのリソースを清掃する
+## すべてのリソースを削除する
 
 Azure NetworkingのTerraformラボを無事に終了したら、Resource Groupsを削除します。以下のterraformコマンドを実行します。
 
